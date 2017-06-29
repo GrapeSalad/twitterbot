@@ -48,6 +48,6 @@ function testBeforeTweet(){
 
 Bot.prototype.tweet = function()
 {
-  tweetNow(haikuArray.join(", "));
+  tweetNow(haikuArray.join(", \n"));
 }
 exports.botModule = Bot;

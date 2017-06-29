@@ -6,7 +6,7 @@ function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-var dictionary = JSON.parse('["one","winter","summer","spring","fall","autumn","garden","tree","plants","cherry","blossom","animals","dinosaur","green","sky","stars","lotus","wonder","gaze","sleep","sheep","pasture","fields","green","sky","stars","lotus","wonder","gaze","sleep","sheep","pasture","fields","on","in","on","in","a","of","the","about", "mountains", "love", "death", "revenge", "success", "fail", "bonsai", "frog", "lace", "curtains", "beware", "fate", "fortune"]');
+var dictionary = JSON.parse('["one","winter","summer","spring","fall","autumn","garden","tree","plants","cherry","blossom","animals","dinosaur","green","sky","stars","lotus","wonder","gaze","sleep","sheep","pasture","fields","green","sky","stars","lotus","wonder","gaze","sleep","sheep","pasture","fields","on","in","on","in","a","of","the","about","mountains","love","death","revenge","success","fail","bonsai","frog","lace","curtains","beware","fate","fortune","wander","chakra","tea","cup","dawn","eve","dusk","hope"]');
 
 // DIFFICULTY GETTING EXTERNAL JSON TO WORK
 // var dictionary = JSON.parse(newWords);
@@ -31,7 +31,7 @@ function assembleHaiku5(sentenceSyllables, sentence) {
   // WHILE LOOP DOES NOT PLAY WELL WITH ASYNC CALLS
   //   Might try do / while
   //   because it will run once then eval at end
-  
+
   // var sentence = [];
   // var sentenceSyllables = 0;
   // for (var i = 0 ; i < 5 ; i++) {
